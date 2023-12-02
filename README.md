@@ -2,7 +2,7 @@ Added support for FITIPOWER FC0012
 
 If you have a FITIPOWER FC0012 or FC0013 that doesn't work with this driver let me know. Include a bus ID of the device.. and any other info you can spare.
 
-FC0012 has been tested by me and will be updated more at later date.
+FC0012 has been tested by me and will be updated more at a later date.
 
 Make sure you find your PPM using GQRX tuned to a Control Channel. If you have more than 1 SDR make sure you change the serial numbers with rtl_eeprom first.. and then note the correct PPM for each SDR.  kalibarate-rtl or rtl_test etc.. will NOT work without modification.
 
