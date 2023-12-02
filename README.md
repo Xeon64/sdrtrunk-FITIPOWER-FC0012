@@ -12,4 +12,6 @@ If you have a SDR that is not currently supported let me know and I'll try to ad
 
 BabyDodge donations to : 0x6DC22B650C4cc27658115B29325D4bb6e9D5CC66
 
+I'll clean up some more of the code later in future beta releases and possibly add extra decoders [sound,txt,video,tracking,etc.] for various streams.
+
 Thanks !
