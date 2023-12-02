@@ -10,6 +10,8 @@ Also make sure you disable auto cal ppm in sdrtrunk. Set LNA gain to the highest
 
 The key to running massive amounts of SDR tuners is using multiple powered USB hubs spread accross multiple USB controllers / IRQs..  Most high watt USB hubs with more than 10 ports appear to handle about 6-7 tuners before causing USB -9 errors and ppm shifts on the same controller.
 
+When adding powered HUBs don't forget to plug the AC adapter (wall wart) into a surge protecter along with your computer.. it will help save your computer if you have a strong surge from your AC power. I personally run a whole home surge protector that protects the whole house using multiple methods.
+
 If you have a SDR that is not currently supported let me know and I'll try to add it when I have free time.
 
 BabyDodge donations to : 0x6DC22B650C4cc27658115B29325D4bb6e9D5CC66
