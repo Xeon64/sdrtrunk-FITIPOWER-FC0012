@@ -31,6 +31,7 @@ import io.github.dsheirer.source.tuner.fcd.proplusV2.FCD2TunerConfiguration;
 import io.github.dsheirer.source.tuner.hackrf.HackRFTunerConfiguration;
 import io.github.dsheirer.source.tuner.recording.RecordingTunerConfiguration;
 import io.github.dsheirer.source.tuner.rtl.e4k.E4KTunerConfiguration;
+import io.github.dsheirer.source.tuner.rtl.fc0012.FC0012TunerConfiguration;
 import io.github.dsheirer.source.tuner.rtl.fc0013.FC0013TunerConfiguration;
 import io.github.dsheirer.source.tuner.rtl.r8x.r820t.R820TTunerConfiguration;
 import io.github.dsheirer.source.tuner.rtl.r8x.r828d.R828DTunerConfiguration;
