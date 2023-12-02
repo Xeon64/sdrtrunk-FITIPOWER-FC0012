@@ -1,6 +1,6 @@
 Added support for FITIPOWER FC0012
 
-If you have a FITIPOWER FC0012 or FC0013 that doesn't work with this driver let me know. Include bus a ID of the device.. and any other info you can spare.
+If you have a FITIPOWER FC0012 or FC0013 that doesn't work with this driver let me know. Include a bus ID of the device.. and any other info you can spare.
 
 FC0012 has been tested by me and will be updated more at later date.
 
