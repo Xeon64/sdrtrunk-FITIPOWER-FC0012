@@ -426,6 +426,10 @@ public class RTL2832TunerController extends USBTunerController
             {
                 tunerClass = TunerType.RAFAELMICRO_R820T;
             }
+            else if(isTuner(TunerTypeCheck.FC0012, controlI2CRepeater))
+            {
+                tunerClass = TunerType.FITIPOWER_FC0012;
+            }
             else if(isTuner(TunerTypeCheck.FC0013, controlI2CRepeater))
             {
                 tunerClass = TunerType.FITIPOWER_FC0013;
@@ -437,10 +441,6 @@ public class RTL2832TunerController extends USBTunerController
             else if(isTuner(TunerTypeCheck.FC2580, controlI2CRepeater))
             {
                 tunerClass = TunerType.FCI_FC2580;
-            }
-            else if(isTuner(TunerTypeCheck.FC0012, controlI2CRepeater))
-            {
-                tunerClass = TunerType.FITIPOWER_FC0012;
             }
 
             enableI2CRepeater(false);
@@ -882,7 +882,7 @@ public class RTL2832TunerController extends USBTunerController
     {
         try
         {
-            if(type == TunerTypeCheck.FC0012 || type == TunerTypeCheck.FC2580)
+            if(type == TunerTypeCheck.FC0012 || type == TunerTypeCheck.FC0013 || type == TunerTypeCheck.FC2580)
             {
                 /* Initialize the GPIOs */
                 setGPIOOutput((byte) 0x20);
@@ -891,6 +891,8 @@ public class RTL2832TunerController extends USBTunerController
                 setGPIOBit((byte) 0x20, true);
                 setGPIOBit((byte) 0x20, false);
             }
+
+
 
             int value = readI2CRegister(type.getI2CAddress(), type.getCheckAddress(), controlI2CRepeater);
 
