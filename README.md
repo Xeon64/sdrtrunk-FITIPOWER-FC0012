@@ -4,7 +4,7 @@ If you have a FITIPOWER FC0012 or FC0013 that doesn't work with this driver let 
 
 FC0012 has been tested by me and will be updated more at a later date.
 
-Make sure you find your PPM using GQRX tuned to a Control Channel. Allow your SDR tuner to warm up at least 2 minutes before finding your ppm. If you have more than 1 SDR make sure you change the serial numbers with rtl_eeprom first.. and then note the correct PPM for each SDR.  kalibarate-rtl or rtl_test etc.. will NOT work without modification.
+Make sure you find your PPM using GQRX tuned to a Control Channel. Allow your SDR tuner to warm up at least 5 minutes before finding your ppm. If you have more than 1 SDR make sure you change the serial numbers with rtl_eeprom first.. and then note the correct PPM for each SDR.  kalibarate-rtl or rtl_test etc.. will NOT work without modification.
 
 
 
