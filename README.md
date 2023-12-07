@@ -6,8 +6,6 @@ FC0012 has been tested by me and will be updated more at a later date.
 
 Make sure you find your PPM using GQRX tuned to a Control Channel. If you have more than 1 SDR make sure you change the serial numbers with rtl_eeprom first.. and then note the correct PPM for each SDR.  kalibarate-rtl or rtl_test etc.. will NOT work without modification.
 
-Tip: You can use your ppm as the serial# for the RTL device.. that way you never have to do a seperate reference lookup.. it's coded to the device info. If it only allows you to enter numbers you can use something like a string of 1234 to note a negative ppm or dot in the ppm.. Such as -12.5 ppm  serial# 12341212345 = -12.5
-
 Also make sure you disable auto cal ppm in sdrtrunk. Set LNA gain to the highest 19.2db. This SDR tuner will not pickup anything beyond 2.4MHZ sampling although 1.8MHZ seems to work best if your having signal issues because of too much bandwidth.
 
 The key to running massive amounts of SDR tuners is using multiple powered USB hubs spread accross multiple USB controllers / IRQs..  Most high watt USB hubs with more than 10 ports appear to handle about 6-7 tuners before causing USB -9 errors and ppm shifts on the same controller.
