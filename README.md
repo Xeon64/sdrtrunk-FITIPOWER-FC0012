@@ -21,3 +21,11 @@ BabyDodge donations to : 0x6DC22B650C4cc27658115B29325D4bb6e9D5CC66
 I'll clean up some more of the code later in future beta releases and possibly add extra decoders [sound,txt,video,tracking,etc.] for various streams.
 
 Thanks !
+
+
+
+UPDATE - 05/14/24
+
+I plan on getting back to this project in the next month or so.. I need to update my cheap antennas to a single split antenna.. before I start running the hardware for testing again.. too many wires. I was also thinking about making a custom PCB with a built-in usb hub with all the chips on the board it would make things nice and neat.. and get rid of all the single usb devices in a hub.. and I can skip making custom wires/boosters/filters.. to clean things up and do it right on the PCB board.
+
+In my last test I did notice a bug on systems with more then one GPU.. audio output did not work when there is more than 1 GPU on the system.. no matter which hw port sdrtrunk was set to.. it wouldn't work or list the correct port used by the main audio GPU. I'll work on that issue too when I get a chance. It didn't seem to have anything to do with my code that I updated or any unusual system configs other then having more than one GPU. In other words this bug is most likely on the current DSheirer mainstream branch too.. It will require more testing when I have time.
